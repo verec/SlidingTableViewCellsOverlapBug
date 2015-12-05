@@ -18,8 +18,6 @@
 		F3BEDF091C09CCEC00FCEE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */; };
 		F3BEDF101C09CCEC00FCEE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */; };
 		F3BEDF131C09CCEC00FCEE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF111C09CCEC00FCEE13 /* LaunchScreen.storyboard */; };
-		F3BEDF1E1C09CCEC00FCEE13 /* SimplestTTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */; };
-		F3BEDF291C09CCEC00FCEE13 /* SimplestTTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */; };
 		F3BEDF371C09CE1800FCEE13 /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF361C09CE1800FCEE13 /* Top.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +53,7 @@
 		F3BEDF121C09CCEC00FCEE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3BEDF141C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BEDF191C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplestTTTTests.swift; sourceTree = "<group>"; };
-		F3BEDF1F1C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BEDF241C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplestTTTUITests.swift; sourceTree = "<group>"; };
-		F3BEDF2A1C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BEDF361C09CE1800FCEE13 /* Top.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,8 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				F3BEDF071C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */,
-				F3BEDF1C1C09CCEC00FCEE13 /* SimplestTTTTests */,
-				F3BEDF271C09CCEC00FCEE13 /* SimplestTTTUITests */,
 				F3BEDF061C09CCEC00FCEE13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,24 +159,6 @@
 			);
 			name = SlidingTableViewCellsOverlapBug;
 			path = SimplestTTT;
-			sourceTree = "<group>";
-		};
-		F3BEDF1C1C09CCEC00FCEE13 /* SimplestTTTTests */ = {
-			isa = PBXGroup;
-			children = (
-				F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */,
-				F3BEDF1F1C09CCEC00FCEE13 /* Info.plist */,
-			);
-			path = SimplestTTTTests;
-			sourceTree = "<group>";
-		};
-		F3BEDF271C09CCEC00FCEE13 /* SimplestTTTUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */,
-				F3BEDF2A1C09CCEC00FCEE13 /* Info.plist */,
-			);
-			path = SimplestTTTUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BEDF1E1C09CCEC00FCEE13 /* SimplestTTTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BEDF291C09CCEC00FCEE13 /* SimplestTTTUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimplestTTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SlidingTableViewCellsOverlapBug;
 				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
@@ -470,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimplestTTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SlidingTableViewCellsOverlapBug;
 				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;

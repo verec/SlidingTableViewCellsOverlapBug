@@ -59,8 +59,8 @@ extension TableView {
             let ip = $0
 
             if ip.row < Storage.modelSource.count {
-                let ci = Storage.modelSource[ip.row]
-                ci.expanded = false
+                let model = Storage.modelSource[ip.row]
+                model.expanded = false
                 return true
             }
             return false
@@ -70,8 +70,8 @@ extension TableView {
     func setupToggleSingleSelection() {
         self.singleSelection?.toggleSelection = {
             let ip = $0
-            let ci = Storage.modelSource[ip.row]
-            ci.expanded = !ci.expanded
+            let model = Storage.modelSource[ip.row]
+            model.expanded = !model.expanded
         }
     }
 }
@@ -118,9 +118,9 @@ extension TableView : UITableViewDelegate {
     func tableView(             tableView:  UITableView
     ,   heightForRowAtIndexPath indexPath:  NSIndexPath) -> CGFloat {
         let storage = Storage.modelSource
-        let ci = storage[indexPath.row]
+        let model = storage[indexPath.row]
 
-        return ci.expanded ? expandedHeight() : collaspedRowHeight()
+        return model.expanded ? expandedHeight() : collaspedRowHeight()
     }
 }
 
