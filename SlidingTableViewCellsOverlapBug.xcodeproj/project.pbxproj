@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F37DEC0E1C12925200E9CF21 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC0D1C12925200E9CF21 /* TableView.swift */; };
+		F37DEC111C12926D00E9CF21 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC101C12926D00E9CF21 /* TableViewCell.swift */; };
+		F37DEC131C12945300E9CF21 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC121C12945300E9CF21 /* Model.swift */; };
+		F37DEC161C12947600E9CF21 /* ModelSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC151C12947600E9CF21 /* ModelSource.swift */; };
+		F37DEC181C1294B200E9CF21 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC171C1294B200E9CF21 /* Storage.swift */; };
+		F37DEC1B1C12986500E9CF21 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC1A1C12986500E9CF21 /* Views.swift */; };
+		F37DEC1E1C129A3A00E9CF21 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC1D1C129A3A00E9CF21 /* CGRect.swift */; };
+		F37DEC211C129D6900E9CF21 /* TableViewSingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */; };
+		F3BEDF091C09CCEC00FCEE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */; };
+		F3BEDF101C09CCEC00FCEE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */; };
+		F3BEDF131C09CCEC00FCEE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF111C09CCEC00FCEE13 /* LaunchScreen.storyboard */; };
+		F3BEDF1E1C09CCEC00FCEE13 /* SimplestTTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */; };
+		F3BEDF291C09CCEC00FCEE13 /* SimplestTTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */; };
+		F3BEDF371C09CE1800FCEE13 /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF361C09CE1800FCEE13 /* Top.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BEDF1A1C09CCEC00FCEE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BEDEFD1C09CCEC00FCEE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BEDF041C09CCEC00FCEE13;
+			remoteInfo = SimplestTTT;
+		};
+		F3BEDF251C09CCEC00FCEE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BEDEFD1C09CCEC00FCEE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BEDF041C09CCEC00FCEE13;
+			remoteInfo = SimplestTTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F37DEC0D1C12925200E9CF21 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = app/TableView.swift; sourceTree = "<group>"; };
+		F37DEC101C12926D00E9CF21 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = app/TableViewCell.swift; sourceTree = "<group>"; };
+		F37DEC121C12945300E9CF21 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = model/Model.swift; sourceTree = "<group>"; };
+		F37DEC151C12947600E9CF21 /* ModelSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelSource.swift; path = model/ModelSource.swift; sourceTree = "<group>"; };
+		F37DEC171C1294B200E9CF21 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = globals/Storage.swift; sourceTree = "<group>"; };
+		F37DEC1A1C12986500E9CF21 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Views.swift; path = globals/Views.swift; sourceTree = "<group>"; };
+		F37DEC1D1C129A3A00E9CF21 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSingleSelection.swift; sourceTree = "<group>"; };
+		F3BEDF051C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BEDF121C09CCEC00FCEE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BEDF141C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDF191C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplestTTTTests.swift; sourceTree = "<group>"; };
+		F3BEDF1F1C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDF241C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplestTTTUITests.swift; sourceTree = "<group>"; };
+		F3BEDF2A1C09CCEC00FCEE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BEDF361C09CE1800FCEE13 /* Top.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BEDF021C09CCEC00FCEE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF161C09CCEC00FCEE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF211C09CCEC00FCEE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37DEC0F1C12925600E9CF21 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F37DEC0D1C12925200E9CF21 /* TableView.swift */,
+				F37DEC101C12926D00E9CF21 /* TableViewCell.swift */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		F37DEC141C12945800E9CF21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F37DEC121C12945300E9CF21 /* Model.swift */,
+				F37DEC151C12947600E9CF21 /* ModelSource.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		F37DEC191C1294B600E9CF21 /* globals */ = {
+			isa = PBXGroup;
+			children = (
+				F37DEC171C1294B200E9CF21 /* Storage.swift */,
+				F37DEC1A1C12986500E9CF21 /* Views.swift */,
+			);
+			name = globals;
+			sourceTree = "<group>";
+		};
+		F37DEC1C1C129A3A00E9CF21 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F37DEC1D1C129A3A00E9CF21 /* CGRect.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		F37DEC1F1C129D6900E9CF21 /* toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */,
+			);
+			path = toolbox;
+			sourceTree = "<group>";
+		};
+		F3BEDEFC1C09CCEC00FCEE13 = {
+			isa = PBXGroup;
+			children = (
+				F3BEDF071C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */,
+				F3BEDF1C1C09CCEC00FCEE13 /* SimplestTTTTests */,
+				F3BEDF271C09CCEC00FCEE13 /* SimplestTTTUITests */,
+				F3BEDF061C09CCEC00FCEE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BEDF061C09CCEC00FCEE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDF051C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.app */,
+				F3BEDF191C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */,
+				F3BEDF241C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BEDF071C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDF361C09CE1800FCEE13 /* Top.swift */,
+				F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */,
+				F37DEC1F1C129D6900E9CF21 /* toolbox */,
+				F37DEC1C1C129A3A00E9CF21 /* extensions */,
+				F37DEC191C1294B600E9CF21 /* globals */,
+				F37DEC0F1C12925600E9CF21 /* app */,
+				F37DEC141C12945800E9CF21 /* model */,
+				F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */,
+				F3BEDF111C09CCEC00FCEE13 /* LaunchScreen.storyboard */,
+				F3BEDF141C09CCEC00FCEE13 /* Info.plist */,
+			);
+			name = SlidingTableViewCellsOverlapBug;
+			path = SimplestTTT;
+			sourceTree = "<group>";
+		};
+		F3BEDF1C1C09CCEC00FCEE13 /* SimplestTTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDF1D1C09CCEC00FCEE13 /* SimplestTTTTests.swift */,
+				F3BEDF1F1C09CCEC00FCEE13 /* Info.plist */,
+			);
+			path = SimplestTTTTests;
+			sourceTree = "<group>";
+		};
+		F3BEDF271C09CCEC00FCEE13 /* SimplestTTTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BEDF281C09CCEC00FCEE13 /* SimplestTTTUITests.swift */,
+				F3BEDF2A1C09CCEC00FCEE13 /* Info.plist */,
+			);
+			path = SimplestTTTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BEDF041C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BEDF2D1C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBug" */;
+			buildPhases = (
+				F3BEDF011C09CCEC00FCEE13 /* Sources */,
+				F3BEDF021C09CCEC00FCEE13 /* Frameworks */,
+				F3BEDF031C09CCEC00FCEE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingTableViewCellsOverlapBug;
+			productName = SimplestTTT;
+			productReference = F3BEDF051C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3BEDF181C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BEDF301C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBugTests" */;
+			buildPhases = (
+				F3BEDF151C09CCEC00FCEE13 /* Sources */,
+				F3BEDF161C09CCEC00FCEE13 /* Frameworks */,
+				F3BEDF171C09CCEC00FCEE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BEDF1B1C09CCEC00FCEE13 /* PBXTargetDependency */,
+			);
+			name = SlidingTableViewCellsOverlapBugTests;
+			productName = SimplestTTTTests;
+			productReference = F3BEDF191C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3BEDF231C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BEDF331C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBugUITests" */;
+			buildPhases = (
+				F3BEDF201C09CCEC00FCEE13 /* Sources */,
+				F3BEDF211C09CCEC00FCEE13 /* Frameworks */,
+				F3BEDF221C09CCEC00FCEE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BEDF261C09CCEC00FCEE13 /* PBXTargetDependency */,
+			);
+			name = SlidingTableViewCellsOverlapBugUITests;
+			productName = SimplestTTTUITests;
+			productReference = F3BEDF241C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BEDEFD1C09CCEC00FCEE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cantabilabs Ltd";
+				TargetAttributes = {
+					F3BEDF041C09CCEC00FCEE13 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F3BEDF181C09CCEC00FCEE13 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F3BEDF041C09CCEC00FCEE13;
+					};
+					F3BEDF231C09CCEC00FCEE13 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F3BEDF041C09CCEC00FCEE13;
+					};
+				};
+			};
+			buildConfigurationList = F3BEDF001C09CCEC00FCEE13 /* Build configuration list for PBXProject "SlidingTableViewCellsOverlapBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BEDEFC1C09CCEC00FCEE13;
+			productRefGroup = F3BEDF061C09CCEC00FCEE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BEDF041C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */,
+				F3BEDF181C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBugTests */,
+				F3BEDF231C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BEDF031C09CCEC00FCEE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEDF131C09CCEC00FCEE13 /* LaunchScreen.storyboard in Resources */,
+				F3BEDF101C09CCEC00FCEE13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF171C09CCEC00FCEE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF221C09CCEC00FCEE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BEDF011C09CCEC00FCEE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37DEC131C12945300E9CF21 /* Model.swift in Sources */,
+				F37DEC181C1294B200E9CF21 /* Storage.swift in Sources */,
+				F3BEDF371C09CE1800FCEE13 /* Top.swift in Sources */,
+				F37DEC161C12947600E9CF21 /* ModelSource.swift in Sources */,
+				F37DEC211C129D6900E9CF21 /* TableViewSingleSelection.swift in Sources */,
+				F37DEC1B1C12986500E9CF21 /* Views.swift in Sources */,
+				F37DEC111C12926D00E9CF21 /* TableViewCell.swift in Sources */,
+				F37DEC0E1C12925200E9CF21 /* TableView.swift in Sources */,
+				F37DEC1E1C129A3A00E9CF21 /* CGRect.swift in Sources */,
+				F3BEDF091C09CCEC00FCEE13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF151C09CCEC00FCEE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEDF1E1C09CCEC00FCEE13 /* SimplestTTTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BEDF201C09CCEC00FCEE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BEDF291C09CCEC00FCEE13 /* SimplestTTTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BEDF1B1C09CCEC00FCEE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BEDF041C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */;
+			targetProxy = F3BEDF1A1C09CCEC00FCEE13 /* PBXContainerItemProxy */;
+		};
+		F3BEDF261C09CCEC00FCEE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BEDF041C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug */;
+			targetProxy = F3BEDF251C09CCEC00FCEE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3BEDF111C09CCEC00FCEE13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BEDF121C09CCEC00FCEE13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BEDF2B1C09CCEC00FCEE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3BEDF2C1C09CCEC00FCEE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BEDF2E1C09CCEC00FCEE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplestTTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SlidingTableViewCellsOverlapBug;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+			};
+			name = Debug;
+		};
+		F3BEDF2F1C09CCEC00FCEE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplestTTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SlidingTableViewCellsOverlapBug;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+			};
+			name = Release;
+		};
+		F3BEDF311C09CCEC00FCEE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplestTTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SimplestTTTTests;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingTableViewCellsOverlapBug.app/SlidingTableViewCellsOverlapBug";
+			};
+			name = Debug;
+		};
+		F3BEDF321C09CCEC00FCEE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplestTTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SimplestTTTTests;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingTableViewCellsOverlapBug.app/SlidingTableViewCellsOverlapBug";
+			};
+			name = Release;
+		};
+		F3BEDF341C09CCEC00FCEE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplestTTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SimplestTTTUITests;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+				TEST_TARGET_NAME = SimplestTTT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3BEDF351C09CCEC00FCEE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimplestTTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.cantabilabs.SimplestTTTUITests;
+				PRODUCT_NAME = SlidingTableViewCellsOverlapBug;
+				TEST_TARGET_NAME = SimplestTTT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BEDF001C09CCEC00FCEE13 /* Build configuration list for PBXProject "SlidingTableViewCellsOverlapBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDF2B1C09CCEC00FCEE13 /* Debug */,
+				F3BEDF2C1C09CCEC00FCEE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BEDF2D1C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDF2E1C09CCEC00FCEE13 /* Debug */,
+				F3BEDF2F1C09CCEC00FCEE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BEDF301C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDF311C09CCEC00FCEE13 /* Debug */,
+				F3BEDF321C09CCEC00FCEE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BEDF331C09CCEC00FCEE13 /* Build configuration list for PBXNativeTarget "SlidingTableViewCellsOverlapBugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEDF341C09CCEC00FCEE13 /* Debug */,
+				F3BEDF351C09CCEC00FCEE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BEDEFD1C09CCEC00FCEE13 /* Project object */;
+}
