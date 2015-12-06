@@ -15,6 +15,7 @@
 		F37DEC1B1C12986500E9CF21 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC1A1C12986500E9CF21 /* Views.swift */; };
 		F37DEC1E1C129A3A00E9CF21 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC1D1C129A3A00E9CF21 /* CGRect.swift */; };
 		F37DEC211C129D6900E9CF21 /* TableViewSingleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */; };
+		F37DEC231C132F1200E9CF21 /* MultiDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DEC221C132F1200E9CF21 /* MultiDispatch.swift */; };
 		F3BEDF091C09CCEC00FCEE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */; };
 		F3BEDF101C09CCEC00FCEE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */; };
 		F3BEDF131C09CCEC00FCEE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BEDF111C09CCEC00FCEE13 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		F37DEC1A1C12986500E9CF21 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Views.swift; path = globals/Views.swift; sourceTree = "<group>"; };
 		F37DEC1D1C129A3A00E9CF21 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSingleSelection.swift; sourceTree = "<group>"; };
+		F37DEC221C132F1200E9CF21 /* MultiDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiDispatch.swift; sourceTree = "<group>"; };
 		F3BEDF051C09CCEC00FCEE13 /* SlidingTableViewCellsOverlapBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingTableViewCellsOverlapBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BEDF081C09CCEC00FCEE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BEDF0F1C09CCEC00FCEE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F37DEC201C129D6900E9CF21 /* TableViewSingleSelection.swift */,
+				F37DEC221C132F1200E9CF21 /* MultiDispatch.swift */,
 			);
 			path = toolbox;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				F37DEC0E1C12925200E9CF21 /* TableView.swift in Sources */,
 				F37DEC1E1C129A3A00E9CF21 /* CGRect.swift in Sources */,
 				F3BEDF091C09CCEC00FCEE13 /* AppDelegate.swift in Sources */,
+				F37DEC231C132F1200E9CF21 /* MultiDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

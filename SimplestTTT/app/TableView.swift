@@ -14,7 +14,6 @@ class TableView : UITableView {
     struct Parameters {
         static let cellIdentifier                   = NSStringFromClass(TableViewCell.self)
         static let cellClass                        = TableViewCell.self
-        static let cellTotalHeight:CGFloat          = 44.0
     }
 
     var singleSelection:TableViewSingleSelection? = .None
@@ -83,15 +82,18 @@ extension TableView : UITableViewDataSource {
         let cell = self.dequeueReusableCellWithIdentifier(Parameters.cellIdentifier, forIndexPath: indexPath) as! TableViewCell
 
         let index   = indexPath.row
+        let model   = Storage.modelSource[index]
         cell.min    = self.collaspedRowHeight()
         cell.max    = self.expandedHeight()
-        cell.model  = Storage.modelSource[index]
+        cell.model  = model
 
-        cell.tapped = {
+        func tapped() {
             if let singleSelection = self.singleSelection {
                 singleSelection.selectionChanged(indexPath)
             }
         }
+
+        cell.tapped = MultiDispatch(tapped).call
 
         return cell
     }

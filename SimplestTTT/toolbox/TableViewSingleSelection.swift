@@ -51,10 +51,6 @@ class TableViewSingleSelection {
         }
 
 
-//        let mode: UITableViewRowAnimation = .Automatic
-//        let mode: UITableViewRowAnimation = .None
-//        let mode: UITableViewRowAnimation = .Middle
-//        let mode: UITableViewRowAnimation = .Fade
         let mode: UITableViewRowAnimation = .Automatic
         tableView.reloadRowsAtIndexPaths(toReload, withRowAnimation: mode)
         if let ip = toReload.last {
